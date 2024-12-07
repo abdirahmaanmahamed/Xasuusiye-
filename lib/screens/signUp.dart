@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_application_3/screens/home.dart';
 import 'package:flutter_application_3/screens/register.dart';
 
 class SignUpscreen extends StatefulWidget {
@@ -58,7 +59,7 @@ class _SignUpscreenState extends State<SignUpscreen> {
                 ),
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (cont) => Register()));
+                      MaterialPageRoute(builder: (cont) => HomeScreen()));
                 },
                 child: const Text(
                   "Sign up",
